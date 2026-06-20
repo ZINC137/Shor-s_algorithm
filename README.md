@@ -2,6 +2,8 @@
 
 Implementation of **Shor's Algorithm** in Qiskit to factor **N = 15** using Quantum Phase Estimation (QPE) and the Quantum Fourier Transform (QFT).
 
+This is my first Quantum Computing project, completed as part of the QC101 Quantum Computing Course offered at IIT Guwahati. The project provided hands-on experience with quantum circuits, QFT, QPE, Shor's Algorithm, and execution on real IBM Quantum hardware.
+
 ## Results
 
 * Number to factor: **15**
