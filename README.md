@@ -1,2 +1,36 @@
-# Shor-s_algorithm
-This is my first project of Quantum Computing.
+# Shor's Algorithm using Qiskit
+
+Implementation of **Shor's Algorithm** in Qiskit to factor **N = 15** using Quantum Phase Estimation (QPE) and the Quantum Fourier Transform (QFT).
+
+## Results
+
+* Number to factor: **15**
+* Chosen base: **a = 7**
+* Period found: **r = 4**
+* Factors obtained: **3 × 5**
+
+## Features
+
+* Modular exponentiation oracle
+* Inverse Quantum Fourier Transform (QFT†)
+* Quantum Phase Estimation
+* Classical post-processing using GCD
+* Execution on IBM Quantum hardware (`ibm_kingston`)
+
+## Technologies
+
+* Python
+* Qiskit
+* Qiskit IBM Runtime
+* IBM Quantum Hardware
+
+## Outcome
+
+Successfully demonstrated Shor's Algorithm on both a simulator and real IBM Quantum hardware, recovering the correct period and factoring:
+
+**15 = 3 × 5**
+
+## Author
+
+**Smruti Ranjan Ghosh**
+
